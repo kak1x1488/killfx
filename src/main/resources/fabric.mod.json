@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "killfx",
+  "version": "${version}",
+  "name": "Kill FX",
+  "description": "Крутые эффекты при убийстве мобов и игроков.",
+  "authors": ["You"],
+  "environment": "*",
+  "entrypoints": { "main": ["com.example.killfx.KillFx"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
